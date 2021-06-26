@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/logo_muni.ico" type="ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Direccion de Tránsito</title>
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <!--Logo y título-->
+            <div class="row">
+                <div class="col">
+                    <div class="title_header">
+                        <img class="title_img" src="static/logo_muni_maipu.jpg" alt="Municipalidad de Maipú">
+                    </div>
+                </div>
+                <div class="col">
+                    <h1>Direccion de Tránsito</h1>
+                </div>
+            </div>
+        <div>
+        <!--Natvar-->
+        <div>
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Suscribirse</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Opciones</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://maipu.gob.ar/">Maipú Municipio</a></li>
+                            <li><a class="dropdown-item" href="#">Ingreso a link</a></li>
+                            <li><a class="dropdown-item" href="#">Ingreso a link</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Infracciones de tránsito</a></li>
+                            <li><a class="dropdown-item" href="#">Policía Vial</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Gobierno</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container_carousel">
+        <!--Corrousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"> -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/carousel_img_1.jpg" class="d-block w-100" alt="Conducción" style="filter: blur(6px)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Conducción Segura</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="static/carousel_img_2.jpg" class="d-block w-100" alt="Estado de calles" style="filter: blur(6px)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Estado De Las Calles</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="static/carousel_img_3.png" class="d-block w-100" alt="Educación vial" style="filter: blur(6px)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Educación Vial</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <main class="container">
+        <section class="sub_section">
+            <div>
+                <h2>NOTICIAS</h2>
+            </div>
+            <!--Acordion -Noticias--->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h3>Maipú crea su observatorio vial</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="container_news">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div>
+                                            <img src="static/observatorio_vial.jpg" alt="noticia observatorio vial">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <p>La Municipalidad de Maipú, a través de un decreto, crea el Observatorio Vial Municipal a fin de prevenir accidentes y proporcionar mejoras en materia de tránsito. Está integrado por representantes del Juzgado Vial, Dirección de Tránsito, Prevención Ciudadana, Defensa Civil, Dirección de Obras Públicas y Accidentología Vial, pertenecientes a Maipú."El objetivo es unificar la información de los datos de siniestro viales en una base de datos a fin de tomar medidas para prevenir accidentes, mejorar la seguridad vial en el departamento de Maipú y proteger a usuarios de distintos transportes y a los peatones", expresó Luis Novillo, director general de Intendencia.</p>
+                                        <h3>Objetivos del Observatorio</h3><p>Con la creación de este sistema se propone identificar, evaluar, analizar los actos y hechos vinculados a tránsito y los usuarios en la vía pública. Es por eso que se realizarán investigaciones en torno a los accidentes, para seguir los casos y así, concientizar a la población. En cuanto a las obras públicas se va a intervenir y asesorar aquellas que estén relacionadas a la circulación vehicular. También se prevé generar información complementaria proporcionada por inspectores de tránsito y encuestas a vecinos, choferes profesionales, empresas de transporte público y usuarios en general. En consecuencia, se espera que la información que reúna el Observatorio Vial permita crear proyectos de intervención, dar a conocer sugerencias y proponer modificaciones en la infraestructura vial.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h3>Operativo Covid-19</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="container_news">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div>
+                                            <img src="static/control_transito.jpg" alt="noticia observatorio vial">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <p>La Municipalidad de Maipú, a través de la Dirección de Tránsito realiza controles de acceso al departamento en las calles mas importantes de ingreso al departamento, verificando el cumplimiento del Decreto Presidencial Nº..... y el Art. 205 del Código Penal. Su función es la concientización sobre la responsabilidad social necesaria en medio de la pandemia por el Covid-19. Se solicita que el conductor exciba su condición de escencial y autorización para circular, como así también licencia de conducir, cédula de inscripción el rodado y comprobante de seguro de responsabilidad civil hacia terceros.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <h3>Siniestro de Metrotranvía</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="container_news">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div>
+                                            <img src="static/choque_metrotranvia.jpg" alt="noticia observatorio vial">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <p>En la tarde de este viernes el Metrotranvía chocó contra un auto en la calle Juan Giol del departamento de Maipú, interrumpiendo el tránsito en la calle y el servicio en sentido hacia el centro. Desde la Secretaría de Servicios Públicos informaron que no huboheridos de gravedad y este lunes se conocieron las imágenes delaccidente en el que el conductor de un duna weekend pasó en rojo y fueembestido por el tren. En el video se ve claramente como el tren está frenado y el semáforo leda la señal para que avance, mientras que el auto entra justo en laescena y es embestido de lleno en la puerta delconductor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub_section">
+            <div>
+                <h2>SERVICIOS</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="static/calles maipu.jpeg" class="card-img-top" alt="calles maipu">
+                            <div class="card-body">
+                                <h5 class="card-title">Estado de calles y rutas</h5>
+                                <p class="card-text">Consultar cortes de calles, red semaforica y desvios en el departamento Maipú.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Consular</li>
+                                <li class="list-group-item">Ingresar novedad</li>
+                                <li class="list-group-item">Otra opción</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="static/conduccion_segura.jpg" class="card-img-top" alt="conduccion_segura">
+                            <div class="card-body">
+                                <h5 class="card-title">Conducción Segura</h5>
+                                <p class="card-text">Escuela de conducción, consejos sobre buenos hábitos al volante, uso de elementos de seguridad vial</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Escuela de conducción</li>
+                                <li class="list-group-item">Consejos</li>
+                                <li class="list-group-item">Uso y mantenimiento de elementos de seguridad</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Turnos para licencia de conducir</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="static/educacion_vial.jpg" class="card-img-top" alt="educacion_vial">
+                            <div class="card-body">
+                                <h5 class="card-title">Educación Vial</h5>
+                                <p class="card-text">Charlas y cursos en escuelas y empresas a fin de colocar en contexto la problemática vial</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Parque temático</li>
+                                <li class="list-group-item">Escuelas primarias y secundarias</li>
+                                <li class="list-group-item">Terciarios y Universitarios</li>
+                                <li class="list-group-item">Empresas privadas y organismos públicos</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Inscribirse</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="static/legislacion_vial.jpg" class="card-img-top" alt="legislacion_vial">
+                            <div class="card-body">
+                                <h5 class="card-title">Legislacion Vial</h5>
+                                <p class="card-text">Descarga de legislación actualizada sobre temática vial.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Ley de Tránsito de Mendoza 9024/17</li>
+                                <li class="list-group-item">Ley de Tránsito Nacional 24.449/94</li>
+                                <li class="list-group-item">Leyes provinciales y C.A.B.A.</li>
+                                <li class="list-group-item">Decretos reglamentarios</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Descargas</a>
+                                <a href="#" class="card-link">Tribunet.net</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class='footer'>
+            <h3>Dirección de Tránsito - Maipú - Mendoza - 2.021</h3>
+        </div>
+    </footer>
+    </body>
+</html>
